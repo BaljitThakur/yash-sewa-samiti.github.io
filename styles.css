@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  height: 12%;
+  padding: 1%;
+  background-color: rgb(131, 131, 131);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+#mycaro {
+  padding: 0px;
+}
+
+#mycarausel {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.carousel .carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+#img {
+  object-fit: cover;
+  max-height: 400px;
+  width: 100%;
+}
+#card1 {
+  border: grey solid 1px;
+  margin-top: 40px;
+}
+#card1 img {
+  max-height: 300px;
+  width: 100%;
+}
+#img0 {
+  width: 100%;
+  height: 100%;
+}
+#divider {
+  height: 14px;
+  background: linear-gradient(to right, #3399ff 0%, #ff5050 100%);
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+#footer {
+  height: 100px;
+  background-color: gray;
+  opacity: 0.3;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/* card */
+
+.card-flyer .image-box {
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.4);
+}
+.card-flyer .image-box img {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  object-fit: cover;
+  width: 100%;
+  height: 205px;
+}
+.card-flyer:hover .image-box img {
+  opacity: 0.8;
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  transform: scale(1.04);
+}
+.card-flyer .text-box {
+  text-align: center;
+}
+.card-flyer .text-box .text-container {
+  padding: 30px 18px;
+}
+.card-flyer {
+  background: #ffffff;
+  margin-top: 60px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+.card-flyer:hover {
+  background: #fff;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 60px;
+}
+.card-flyer .text-box p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.card-flyer .text-box h6 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto Black", sans-serif;
+  letter-spacing: 1px;
+  color: #003d46;
+}
+
+#footer {
+  padding: 2rem 1rem;
+}
