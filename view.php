@@ -19,6 +19,36 @@
 </head>
 
 <body>
+<?php
+    require('db.php');
+    session_start();
+    ?>
+
+  <?php if($_SESSION['username']){ ?>
+
+  <header class="top">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-md-6 col-sm-8 col-xs-6">
+          <h3>Yash Sewa Samiti</h3>
+        </div>
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <p>Random event</p>
+          <a href="login.php" class="btn btn-primary">Add Event</a>
+        </div>
+        <div class="col-md-2 col-sm-4 col-xs-6">
+          <p><?php echo $_SESSION['username']; ?></p>
+          <a href="logout.php" class="btn btn-primary">logout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+   <?php } 
+   
+   else {
+   ?>
+
   <header class="top">
     <div class="container">
       <div class="row align-item-center">
@@ -27,12 +57,13 @@
         </div>
         <div class="col-md-2 col-sm-4 col-xs-6">
           <p>Random event</p>
-          <a href="add.php" class="btn btn-primary">Add Event</a>
+          <a href="login.php" class="btn btn-primary">Add Event</a>
         </div>
+        
       </div>
     </div>
   </header>
-
+  <?php } ?>
   <!-- //carousel -->
 
 
