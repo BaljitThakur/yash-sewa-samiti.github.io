@@ -68,6 +68,6 @@
            
         </form>
     </div>
-        <a href="view.php"><button name="view" class="btn btn-info" id="viewbutt" >View all events</button></a>
+        <a href="index.php"><button name="view" class="btn btn-info" id="viewbutt" >View all events</button></a>
 </body>
 </html>
